@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Movie Ratings</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include the D3 library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Currently Popular Movies</h1>
+        <p>Visualizing average ratings from TMDb</p>
+    </header>
+
+    <main>
+        <div id="chart-container">
+            <h2>Top 10 Movie Ratings</h2>
+            <!-- The D3 chart will be drawn inside this SVG -->
+            <svg id="movie-rating-chart"></svg>
+        </div>
+        <div id="error-message" style="color: red;"></div>
+    </main>
+
+    <footer>
+        <p>Data sourced from TMDb API.</p>
+    </footer>
+
+    <!-- Link your JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

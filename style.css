@@ -1,0 +1,16 @@
+/* style.css - Bare Minimum */
+body { font-family: sans-serif; margin: 20px; }
+#movie-rating-chart { max-width: 800px; /* Prevent it getting huge */ }
+
+/* Minimal axis styling to make lines visible */
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #ccc;
+    shape-rendering: crispEdges;
+}
+/* Attempt to rotate x-axis labels slightly even without full design */
+.x-axis text {
+   text-anchor: end;
+   transform: rotate(-30deg); /* Basic rotation attempt */
+}
