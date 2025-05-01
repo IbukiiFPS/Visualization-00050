@@ -1,5 +1,5 @@
 // --- Configuration ---
-const apiKey = 'YOUR_API_KEY'; // <<< PUT YOUR KEY HERE
+const apiKey = 'b117a1ec22fdf2bdd8e6b0b410ea54f9'; // <<< PUT YOUR KEY HERE
 const apiUrl = `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-US&page=1`;
 
 // --- D3 Chart Dimensions ---
